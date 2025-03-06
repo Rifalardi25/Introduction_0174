@@ -15,26 +15,23 @@ using namespace std;
     //accept lebar
     cin >> lebar;
     }
-   double hitung luas() {
+   double hitungluas() {
     //compute luas = panjang * lebar
     luas = panjang * lebar;
     return luas;
 }
-double hitungluas2 (double a, double b){
-    return a * b;
-}
+
 void tampildata() {
   //display 'luas persegi panjang = ' + luas
-  cout << "luasnya adalah " << luas;  
+  cout << "luasnya adalah " << hitungluas(); 
 }
     
 int main()
 {//begin
     inputdata();
-    tampilluas;
-}//end
-
-
-
+    tampildata();
 
 }//end
+
+
+
